@@ -2,8 +2,48 @@
 <html>
   <head>
     <title>The Best Recipes!</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Recipes</h1>
+    <style>
+      body {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url(recipe-image-file/home-file/Restaurant-background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+    <div class="sidebar">
+      <a href="index.html">Home</a>
+      <a href="chicken.html">Chicken</a>
+      <a href="bread.html">Bread</a>
+    </div>
+    <div class="content">
+      <h1 style="color: whitesmoke; text-align: center">Best Recipes</h1>
+      <div class="row">
+        <div class="column">
+          <a href="chicken.html"
+            ><img
+              src="recipe-image-file/home-file/chicken.jpg"
+              alt="image of chicken"
+              style="width: 100%"
+            />
+          </a>
+        </div>
+        <div class="column">
+          <a href="bread.html"
+            ><img
+              src="recipe-image-file/home-file/bread.jpg"
+              alt="image of bread"
+              style="width: 100%"
+          /></a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
